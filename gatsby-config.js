@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [{
+    resolve: `gatsby-source-tumblr`,
+    options: {
+      blogIdentifier: `ultra40sec.tumblr.com`,
+      consumerKey: `uK4ih9J52Uspb8vFj85cl6gtptQLaXbLRtetFnYBc8tXtkYvRi`,
+    },
+  },]
 }
